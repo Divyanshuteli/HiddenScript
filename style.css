@@ -1,0 +1,48 @@
+.body {
+background-image: url('https://images.pexels.com/photos/21085358/pexels-photo-21085358.jpeg');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 100vh;
+margin: 0;
+}
+
+.login-container {
+width: 260px;
+margin: 40px auto;
+background: transparent; /* Bilkul transparent */
+padding: 30px;
+border-radius: 50px;
+box-shadow: 0 0 15px rgba(0,0,0,0.4);
+text-align: center;
+
+}
+
+.login-container h2 {
+margin-bottom: 20px;
+color: #fff;
+}
+
+.login-container input {
+width: 100%;
+padding: 10px;
+margin: 10px 0;
+background: #111;
+color: #fff;
+border: 1px solid #555;
+border-radius: 8px;
+}
+
+.login-container button {
+width: 100%;
+padding: 10px;
+margin-top: 10px;
+background: #00ffff;
+color: #000;
+font-weight: bold;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+}
+
+

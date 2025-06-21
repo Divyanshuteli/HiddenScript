@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #121212;
+  color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #00ffff;
+}
+
+.section-block {
+  background: #1e1e1e;
+  margin-bottom: 30px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #00ffff44;
+}
+
+.section-block h2 {
+  margin-bottom: 15px;
+  color: #ffaa00;
+  border-bottom: 1px solid #ffaa00;
+  padding-bottom: 5px;
+}
+
+.message {
+  background: #2a2a2a;
+  padding: 12px;
+  border-left: 4px solid #00ffff;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}

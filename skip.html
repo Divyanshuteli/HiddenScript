@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Confession Wall - Home</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body class="body">
+
+  <!-- Navbar -->
+  <div class="nav-bar">
+    <div class="left-nav">
+      <a href="#">Home</a>
+      <a href="#">News</a>
+      <a href="#">Premium</a>
+      <a href="#" onclick="openProfile()">Profile</a>
+    </div>
+    <div class="right-nav">
+      <span class="menu-icon" onclick="toggleDrawer()">☰</span>
+      <a href="index.html">Logout</a>
+    </div>
+  </div>
+
+  <!-- Left Drawer -->
+  <div id="leftDrawer" class="left-drawer">
+    <h3>Sections</h3>
+    <a href="section.html?name=freefire">Free Fire</a>
+    <a href="section.html?name=minecraft">Minecraft</a>
+    <a href="section.html?name=illegal">Illegal</a>
+  </div>
+
+  <!-- Slide Profile Section -->
+  <div id="profileSection" class="profile-slide">
+    <div class="profile-header">
+      <span class="close-btn" onclick="closeProfile()">×</span>
+      <h3>User Profile</h3>
+    </div>
+    <div class="profile-content">
+      <p>Welcome to your section!</p>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="content">
+    <h2>Welcome to the Confession Wall</h2>
+    <p>Feel free to share your thoughts anonymously.</p>
+
+    <textarea id="confessionText" placeholder="Write your confession here..."></textarea>
+    <button onclick="submitConfession()">Submit</button>
+
+    <div id="allMessages" class="messages-display"></div>
+  </div>
+
+  <!-- Suggestion Section -->
+  <div class="suggestion-container">
+    <h3>Got any suggestion?</h3>
+    <textarea id="suggestionInput" placeholder="Write your suggestion..."></textarea>
+    <button onclick="submitSuggestion()">Submit Suggestion</button>
+    <div id="suggestionList" class="suggestion-list"></div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>&copy; 2025 <strong>Confession Wall</strong><br>
+    <span class="tagline">Speak Freely, Stay Anonymous 🌙</span></p>
+  </div>
+
+  <script src="script2.js"></script>
+</body>
+</html>

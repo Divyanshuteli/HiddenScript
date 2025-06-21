@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="admin.css" />
+</head>
+
+<body>
+
+  <!-- 🔷 Navigation Bar -->
+  <div class="nav">
+    <a href="#">Home</a>
+    <a href="#">News Upload</a>
+    <a href="#">Premium Users</a>
+    <a href="#">Sections</a>
+    <a href="#" class="logout-btn"></a>
+  </div>
+
+  <!-- 🟨 Main Content Area -->
+  <div class="dashboard-container">
+    
+    <h2>Welcome, Admin</h2>
+
+    <!-- Example Cards / Panels -->
+    <div class="admin-panel">
+      <div class="card" id="confessionsPanel">
+        <h3>📋 View Confessions</h3>
+        <button>Open</button>
+      </div>
+
+      <div class="card" id="newsPanel">
+        <h3>📰 Upload News</h3>
+        <button>Upload</button>
+      </div>
+
+      <div class="card" id="premiumPanel">
+        <h3>🌟 Manage Premium</h3>
+        <button>Manage</button>
+      </div>
+
+      <div class="card" id="sectionPanel">
+        <h3>📂 Edit Sections</h3>
+        <button>Edit</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="admin.js"></script>
+</body>
+
+</html>
